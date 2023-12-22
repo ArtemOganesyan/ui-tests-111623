@@ -86,4 +86,5 @@ Feature: Smoke steps
       Then I type "12345Abc" into element with xpath "//input[@placeholder='Confirm Password']"
       Then I click on element with xpath "//span[contains(text(),'Register Me')]"
       Then I confirm user account with email "fakeemail_testuser@gmail.com"
+      And I take screenshot
       Then I wait for 3 sec
